@@ -1,0 +1,75 @@
+{
+  "uid" : "4a2c310787909bb3",
+  "name" : "skySportsPageOpenSuccessfully()",
+  "fullName" : "tests.SkySportsTestCase.skySportsPageOpenSuccessfully",
+  "historyId" : "ad50f160e7f0b79b797f4a6d1af32b86",
+  "time" : {
+    "start" : 1672049578424,
+    "stop" : 1672049585110,
+    "duration" : 6686
+  },
+  "description" : "Google search and navigate through result link to page and accept cookies",
+  "descriptionHtml" : "<p>Google search and navigate through result link to page and accept cookies</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Google search and navigate through result link to page and accept cookies",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f3038056a97a734",
+      "name" : "screenshot",
+      "source" : "5f3038056a97a734.png",
+      "type" : "image/png",
+      "size" : 2726563
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "jaans-MBP.lan"
+  }, {
+    "name" : "thread",
+    "value" : "65390@jaans-MBP.lan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.SkySportsTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SkySportsTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "skySportsPageOpenSuccessfully"
+  }, {
+    "name" : "suite",
+    "value" : "tests.SkySportsTestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a2c310787909bb3.json",
+  "parameterValues" : [ ]
+}

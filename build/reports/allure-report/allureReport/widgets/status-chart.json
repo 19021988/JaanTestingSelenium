@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f25716748bd7881b",
+  "name" : "googlePageOpensSuccessfully()",
+  "time" : {
+    "start" : 1672049572572,
+    "stop" : 1672049578319,
+    "duration" : 5747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a2c310787909bb3",
+  "name" : "skySportsPageOpenSuccessfully()",
+  "time" : {
+    "start" : 1672049578424,
+    "stop" : 1672049585110,
+    "duration" : 6686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7975bb31b59a8c3d",
+  "name" : "skySportsFootballNewsPageOpenSuccessfully()",
+  "time" : {
+    "start" : 1672049585115,
+    "stop" : 1672049593883,
+    "duration" : 8768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

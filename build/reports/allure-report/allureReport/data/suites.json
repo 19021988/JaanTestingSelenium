@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.SkySportsTestCase",
+    "children" : [ {
+      "name" : "googlePageOpensSuccessfully()",
+      "uid" : "f25716748bd7881b",
+      "parentUid" : "43f90d1fb83f3eac7488df804b869ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672049572572,
+        "stop" : 1672049578319,
+        "duration" : 5747
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "skySportsPageOpenSuccessfully()",
+      "uid" : "4a2c310787909bb3",
+      "parentUid" : "43f90d1fb83f3eac7488df804b869ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672049578424,
+        "stop" : 1672049585110,
+        "duration" : 6686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "skySportsFootballNewsPageOpenSuccessfully()",
+      "uid" : "7975bb31b59a8c3d",
+      "parentUid" : "43f90d1fb83f3eac7488df804b869ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1672049585115,
+        "stop" : 1672049593883,
+        "duration" : 8768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "43f90d1fb83f3eac7488df804b869ce0"
+  } ],
+  "name" : "suites"
+}

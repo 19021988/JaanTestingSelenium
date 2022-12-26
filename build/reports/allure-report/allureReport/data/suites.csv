@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 26 12:12:52 EET 2022","Mon Dec 26 12:12:58 EET 2022","5747","","tests.SkySportsTestCase","","tests.SkySportsTestCase","googlePageOpensSuccessfully","googlePageOpensSuccessfully()","Google opens - accept cookies"
+"passed","Mon Dec 26 12:12:58 EET 2022","Mon Dec 26 12:13:05 EET 2022","6686","","tests.SkySportsTestCase","","tests.SkySportsTestCase","skySportsPageOpenSuccessfully","skySportsPageOpenSuccessfully()","Google search and navigate through result link to page and accept cookies"
+"passed","Mon Dec 26 12:13:05 EET 2022","Mon Dec 26 12:13:13 EET 2022","8768","","tests.SkySportsTestCase","","tests.SkySportsTestCase","skySportsFootballNewsPageOpenSuccessfully","skySportsFootballNewsPageOpenSuccessfully()","Navigates 2 skySports football news page and looks for 3 latest news"

@@ -1,0 +1,75 @@
+{
+  "uid" : "7975bb31b59a8c3d",
+  "name" : "skySportsFootballNewsPageOpenSuccessfully()",
+  "fullName" : "tests.SkySportsTestCase.skySportsFootballNewsPageOpenSuccessfully",
+  "historyId" : "b013f09ec8a56c219b3aed34ae9ff684",
+  "time" : {
+    "start" : 1672049585115,
+    "stop" : 1672049593883,
+    "duration" : 8768
+  },
+  "description" : "Navigates 2 skySports football news page and looks for 3 latest news",
+  "descriptionHtml" : "<p>Navigates 2 skySports football news page and looks for 3 latest news</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Navigates 2 skySports football news page and looks for 3 latest news",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8bec50dfb0b2e414",
+      "name" : "screenshot",
+      "source" : "8bec50dfb0b2e414.png",
+      "type" : "image/png",
+      "size" : 437728
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "jaans-MBP.lan"
+  }, {
+    "name" : "thread",
+    "value" : "65390@jaans-MBP.lan.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.SkySportsTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SkySportsTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "skySportsFootballNewsPageOpenSuccessfully"
+  }, {
+    "name" : "suite",
+    "value" : "tests.SkySportsTestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7975bb31b59a8c3d.json",
+  "parameterValues" : [ ]
+}
