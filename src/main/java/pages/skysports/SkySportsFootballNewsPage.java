@@ -11,8 +11,8 @@ public class SkySportsFootballNewsPage extends SkySportsFootballPage{
     @FindBy(css = "h3[class=\"page-filters__title\"]")
     private WebElement footballNewsHeader;
 
-    @FindBy(css = "#widgetLite-10 [class*=\"news-list__item\"] h4 a")
-    private List<WebElement> latestNews ;
+    @FindBy(css = "[class*=\"news-list__item\"] h4 a")
+    public List<WebElement> latestNews ;
 
     public SkySportsFootballNewsPage(RemoteWebDriver driver) {
         super(driver);

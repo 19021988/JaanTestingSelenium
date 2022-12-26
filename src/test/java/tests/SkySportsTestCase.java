@@ -3,6 +3,7 @@ package tests;
 import baseTest.AbstractSeleniumTest;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.JavascriptExecutor;
 import pages.google.GooglePage;
 import pages.skysports.SkySportsFootballNewsPage;
 import pages.skysports.SkySportsPage;
@@ -50,6 +51,12 @@ class SkySportsTestCase extends AbstractSeleniumTest {
                 .navBarMenu(SPORTS)
                         .navToPage(FOOTBALL)
                         .navToTab(NEWS);
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println(newsPage.latestNews.get(i).getText());
+        }
+
+        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,300)");
 
         Assertions.assertTrue(newsPage.footballNewsHeaderText());
     }
