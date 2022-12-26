@@ -25,6 +25,7 @@ public class GooglePage extends AbstractPage {
     }
 
     public GooglePage acceptCookies() {
+        waitUntilElementIsLoaded(acceptCookiesButton);
         clickOn(acceptCookiesButton);
 
         return this;

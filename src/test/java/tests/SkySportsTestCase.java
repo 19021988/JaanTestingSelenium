@@ -43,7 +43,7 @@ class SkySportsTestCase extends AbstractSeleniumTest {
     }
 
     @Test
-    @Description("Navigates 2 skySports football news page and looks for 3 latest news")
+    @Description("Navigates 2 skySports football news page and gets 3 latest news headlines")
     @Order(3)
     void skySportsFootballNewsPageOpenSuccessfully() {
         SkySportsFootballNewsPage newsPage =
@@ -59,6 +59,7 @@ class SkySportsTestCase extends AbstractSeleniumTest {
         ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,300)");
 
         Assertions.assertTrue(newsPage.footballNewsHeaderText());
+        Assertions.assertTrue(newsPage.latestNews.size() > 0);
     }
 
     private SkySportsPage navigateToSkySportsPage() {
